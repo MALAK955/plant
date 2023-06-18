@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Poppins:wght@300;400;500;900&display=swap');
+/* we target mobile 375px */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height:100vh;
+    background-image: url(../images/7fe42026a9f21b53bd5e6df4303423bb.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+/* start styling the header */
+
+header {
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+nav {
+    width: 85%;
+    background-color: transparent;
+    padding: 10px;
+    margin-top: 90px;
+    border: 1.5px solid #242914;
+    border-radius: 15px;
+}
+
+nav a {
+    color: aliceblue;
+    padding-left: 10px;
+}
+/* end styling the header */
+/* start styling the card */
+section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    background-color: linear-gradient(135deg,#d1dab7,#e1ecbf);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1.5px solid #242914;
+    border-radius: 20px;
+    width: 80%;
+    padding-top: 5rem;
+    padding-left: 2rem;
+    padding-right: 3rem;
+}
+
+h1 {
+    color: white;
+    font-size: 30px;
+    border-left: 3px solid #effeef;
+    padding-left: 10px;
+    margin-bottom: 30px;
+}
+
+p {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contact a {
+    color: white;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+}
+
+.created {
+    border: 1.5px solid #606d35;
+    padding: 10px;
+    background-color: transparent;
+    border-radius: 20px;
+}
+
+h5 {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
